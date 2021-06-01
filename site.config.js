@@ -1,25 +1,25 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '78fc5a4b88d74b0e824e29407e9f1ec1',
+  rootNotionPageId: '22208159dc52443da19ca7db2ebac687',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: '06ac5e34-75cb-44bf-9855-feeb39231f7e',
 
   // basic site info (required)
-  name: 'Transitive Bullshit',
-  domain: 'transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'eliasbenb',
+  domain: 'ib.eliasbenb.cf',
+  author: 'Elias Benbourenane',
 
   // open graph metadata (optional)
-  description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
-  socialImageSubtitle: 'Hello World! 👋',
+  description: 'eliasbenb',
+  socialImageTitle: 'eliasbenb',
+  socialImageSubtitle: 'eliasbenb',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: null,
+  github: 'eliasbenb',
+  linkedin: null,
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -39,6 +39,8 @@ module.exports = {
   // variables specified in .env.example
   isPreviewImageSupportEnabled: false,
 
+  includeNotionIdInUrls: true,
+  
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
   // example:
