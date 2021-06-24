@@ -1,25 +1,25 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '22208159dc52443da19ca7db2ebac687',
+  rootNotionPageId: '0985666c3f6a4f3cb2f98fb24095cf23',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: '06ac5e34-75cb-44bf-9855-feeb39231f7e',
+  rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'eliasbenb',
-  domain: 'ib.eliasbenb.cf',
-  author: 'Elias Benbourenane',
+  name: 'hashe',
+  domain: 'ib.hashe.cf',
+  author: 'Abdullah Alhashmi',
 
   // open graph metadata (optional)
-  description: 'eliasbenb',
-  socialImageTitle: 'eliasbenb',
-  socialImageSubtitle: 'eliasbenb',
+  description: 'hashe',
+  socialImageTitle: 'hashe',
+  socialImageSubtitle: 'hashe',
 
   // social usernames (optional)
   twitter: null,
-  github: 'eliasbenb',
-  linkedin: null,
+  github: 'ahashe',
+  linkedin: 'Abdullah Alhashmi',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
